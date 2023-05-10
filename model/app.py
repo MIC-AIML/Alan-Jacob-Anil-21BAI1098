@@ -3,10 +3,10 @@ import cv2
 import pafy
 def app(source, option):
     if option=='YouTube':
-        url = source
-        vPafy = pafy.new(url)
-        play = vPafy.getbest(preftype="webm")
-        source = play
+#         url = source
+#         vPafy = pafy.new(url)
+#         play = vPafy.getbest(preftype="webm")
+#         source = play
         return 0
 
     elif option=="image":
